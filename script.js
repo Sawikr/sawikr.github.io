@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://radoslaw-sawicki-java-rest.sawikr.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://api.trello.com/1/v1/trello';
+  const trelloApiRoot = 'https://radoslaw-sawicki-java-rest.sawikr.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
